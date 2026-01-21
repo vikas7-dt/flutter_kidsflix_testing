@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "617737526836",
+    "project_id": "kidsflix-club-flutter",
+    "storage_bucket": "kidsflix-club-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617737526836:android:789200861d38234a39f461",
+        "android_client_info": {
+          "package_name": "com.dt.kidsflixclub.kidsflix_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617737526836-lpptnome7mo6bmrioegl6a13ljbdesii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPxZY36JaRGQYpi6saa-hoCGRYDdfX1Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617737526836-lpptnome7mo6bmrioegl6a13ljbdesii.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617737526836-b46v8aug9hvaso7mmutjnaf20qk3qhb3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dt.kidsflixclub.kidsflixFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

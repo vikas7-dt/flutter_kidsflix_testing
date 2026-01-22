@@ -235,4 +235,3 @@ class InAppPurchaseUtils extends GetxController {
   }
 
 }
-

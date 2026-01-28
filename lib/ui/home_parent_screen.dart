@@ -22,7 +22,6 @@ import 'package:miniplayer/miniplayer.dart';
 import '../util/app_strings.dart';
 
 class HomeParentScreen extends StatefulWidget {
-
   HomeParentScreen({super.key});
 
   String contentId = "";
@@ -30,11 +29,9 @@ class HomeParentScreen extends StatefulWidget {
 
   @override
   State<HomeParentScreen> createState() => _HomeParentScreenState();
-
 }
 
 class _HomeParentScreenState extends State<HomeParentScreen> {
-
   int currentIndex = 0;
 
   static const AdRequest request = AdRequest(
@@ -74,7 +71,6 @@ class _HomeParentScreenState extends State<HomeParentScreen> {
   }
 
   void _showInterstitialAd() {
-
     if (_interstitialAd == null) {
       print('Warning: attempt to show interstitial before loaded.');
       return;
@@ -119,12 +115,10 @@ class _HomeParentScreenState extends State<HomeParentScreen> {
               _createRewardedAd();
             }
           },
-        )
-    );
+        ));
   }
 
   void _showRewardedAd() {
-
     if (_rewardedAd == null) {
       print('Warning: attempt to show rewarded before loaded.');
       return;
@@ -153,7 +147,6 @@ class _HomeParentScreenState extends State<HomeParentScreen> {
     });
 
     _rewardedAd = null;
-
   }
 
   void callBackData(String contentId) {
@@ -188,7 +181,6 @@ class _HomeParentScreenState extends State<HomeParentScreen> {
                 } else {
                   return Container();
                 }
-
               }),
             ],
           ),

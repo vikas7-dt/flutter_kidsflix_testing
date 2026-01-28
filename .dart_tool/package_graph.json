@@ -397,9 +397,10 @@
     },
     {
       "name": "get",
-      "version": "4.6.6",
+      "version": "4.7.3",
       "dependencies": [
-        "flutter"
+        "flutter",
+        "web"
       ]
     },
     {

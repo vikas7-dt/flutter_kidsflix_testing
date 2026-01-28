@@ -40,10 +40,10 @@ dependencies:
   cupertino_icons: ^1.0.6
   country_picker: ^2.0.26
   flutter_text_form_field: ^1.0.5
-  get: ^4.6.6
+  get: ^4.7.3
   flutter_svg: ^2.2.3
   carousel_slider: ^5.1.1
-  http: ^1.2.1
+  http: ^1.2.2
   crypto: ^3.0.7
   shared_preferences: ^2.5.4
   firebase_auth: ^6.1.4
